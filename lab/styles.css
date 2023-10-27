@@ -1,0 +1,90 @@
+body{
+    background-color: azure;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+h1{
+    font-size: 3rem;
+}
+.back{
+    background-image: url(restaurant-1284351_1280.jpg);
+    background-size: cover;
+    color: aliceblue;
+    border-radius: 30px;
+    padding-left: 10px;
+}
+header > img{
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+}
+nav ul{
+    text-align: center;
+    list-style: none;
+    background-color:rgb(53, 52, 52);
+    height: 50px;
+    border-radius: 30px;
+    
+}
+nav li{
+    padding-top: 8px;
+    padding-bottom: 8px;
+    display: inline-block;
+    margin-left: 10px;
+    margin-right:10px;
+    
+}
+nav li a{
+    color: white;
+    text-decoration: none;
+    font-size:larger;
+    font-weight:bolder;
+}
+section{
+    display: flex;
+}
+article{
+    flex: 1;
+}
+.card{
+    background-color: bisque;
+    margin: 10px;
+    border-radius: 15px 15px;
+}
+.card-image{
+    height: 150px;
+    background-color: blue;
+    background-size: cover;
+    border-radius: 15px 15px;
+}
+.card1{
+background-image: url(salmon-1312372_1280.jpg);
+}
+.card2{
+    background-image: url(snack-2635035_1280.jpg);
+    }
+ .card3{
+  background-image: url(restaurant-1284351_1280.jpg);
+        }
+.card p{
+    padding: 10px;
+}
+.card h2{
+    padding: 10px;
+}
+.card:hover{
+    background-color: rgb(69, 68, 68);
+}
+footer{
+    display: flex;
+    margin: 10px;
+
+}
+footer div{
+   flex: 1;
+}
+.left{
+    text-align: end;
+}
